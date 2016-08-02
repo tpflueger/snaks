@@ -1,0 +1,6 @@
+[submodule "snaks-ui"]
+	path = snaks-ui
+	url = git@github.com:tpflueger/snaks-ui.git
+[submodule "snaks-api"]
+	path = snaks-api
+	url = git@github.com:tpflueger/snaks-api.git
