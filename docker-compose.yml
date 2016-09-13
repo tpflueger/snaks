@@ -1,0 +1,13 @@
+version: '2'
+services:
+    snaks-web:
+        extends:
+            file: ./snaks-ui/docker-compose.yml
+            service: web
+        depends_on:
+            - snaks-api
+
+    snaks-api:
+        extends:
+            file: ./snaks-api/docker-compose.yml
+            service: api
